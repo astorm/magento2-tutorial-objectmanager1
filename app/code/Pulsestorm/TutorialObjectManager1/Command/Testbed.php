@@ -16,18 +16,6 @@ class Testbed extends AbstractCommand
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $manager = $this->getObjectManager();
-        $object  = $manager->get('Pulsestorm\TutorialObjectManager1\Model\Example');        
-
-        $object->message = 'Hello PHP';
-
-        $output->writeln(
-            $object->getHelloMessage()
-        );                
-                
-        $object  = $manager->get('Pulsestorm\TutorialObjectManager1\Model\Example');        
-        $output->writeln(
-            $object->getHelloMessage()
-        );                        
+    
     }
 }
