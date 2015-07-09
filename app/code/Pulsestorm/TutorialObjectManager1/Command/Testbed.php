@@ -9,7 +9,7 @@ class Testbed extends AbstractCommand
 {
     protected function configure()
     {
-        $this->setName('ps:testbed');
+        $this->setName('ps:tutorial-object-manager-1');
         $this->setDescription('A cli playground for testing commands');
         parent::configure();
     }
