@@ -16,6 +16,6 @@ class Testbed extends AbstractCommand
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $this->outputln("You did it!");
+        $output->writeln("You did it!");
     }
 }
